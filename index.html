@@ -11,7 +11,7 @@
 
 <body >
     <header class="container">
-        <nav class=" navbar navbar-expand-lg bg-light">
+        <nav class=" fixed-top navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"> <img src="images/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -25,10 +25,10 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#bags">Backpack</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Subscribe</a>
@@ -103,6 +103,7 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
+        </div>
         </section>
         <!-- Slider End -->
     </header>
@@ -143,7 +144,9 @@
 
     <!-- Shoe Catagory Start  -->
 
-    <div class="container"><div class="  mt-4 row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 g-4 bg-light ">
+    <div class="container mt-4 " id="shoes">  <h1 class="text-warning">Shoes </h1>
+       <div class="  row row-cols-lg-3 row-cols-md-2 row-cols-1 g-4 bg-light ">
+        
         <div class="col">
             <div class="card border-0 shadow-lg ">
                 <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
@@ -186,7 +189,9 @@
     <!-- Shoe Catagory End   -->
 
     <!-- Backpack section start  -->
-    <div class="container"><div class=" mt-4 row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 g-4 bg-light ">
+    <div class="container mt-4" id="bags"> 
+        <h1 class="text-warning">Backpacks</h1>
+        <div class="  row row-cols-lg-3 row-cols-md-2 row-cols-1 g-4 bg-light ">
         <div class="col">
             <div class="card border-0 shadow-lg">
                 <img src="images/bags/bag-1.png
@@ -232,6 +237,23 @@
 </div>
     <!-- Backpack section end -->
 
+    <!-- Footer Section start -->
+
+    <section class=" container border rounded-3 mt-5 bg-primary p-5 d-flex justify-content-center align-items-center">
+      <div class=""><h1>Lets stay in Touch</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, error!</p><form  class="d-flex">
+        <div class="mb-3">
+         
+          <input type="email" placeholder="Enter Your E-mail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div>
+       
+       
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form></div>    
+    </section>
+    <!-- Email SEction End  -->
+     <footer class=" my-3 text-center"> <small> 2022 programming hero course practice</small></footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
